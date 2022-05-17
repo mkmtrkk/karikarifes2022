@@ -1,0 +1,288 @@
+body {
+    background: linear-gradient(#433d2e, #d5c574);
+}
+#top{
+    margin-top: 40px;
+    
+}
+h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 800;
+    font-family: 'Diplomata SC', cursive;
+    padding: 15px;
+    text-align: center;
+}
+.p1{
+    color: white;
+    font-size: 30px;
+    font-weight: 50;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-top: 40px;
+}
+.p2{
+    color: white;
+    font-size: 30px;
+    font-weight: 50;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.header{
+    -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+    text-orientation: sideways;
+    font-size: 25px;
+    color: white;
+    margin-left: 95%;
+    font-family: 'Bungee', cursive;
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+    padding: 0 20px;
+}
+.header ul{
+    display: flex;
+}
+.header li{
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+p{
+    letter-spacing: 10px;
+}
+.mainpic{
+    background-image: url(./img/publicdomainq-0014426mrcfkj.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    padding: 10px 20px 50px 20px;
+    margin: 60px 0 80px;
+}
+
+/* news */
+#news{
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    padding: 0 4%;
+}
+.nwrap dl{
+    
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #c8c8c8;
+    margin-bottom: 20px;
+}
+.nwrap dt{
+    width: 20%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px 0 15px 90px;
+}
+.nwrap dd{
+    width: 80%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px 0 15px 100px;
+}
+
+/* lineup */
+#lineup{
+    margin: 0 40px;
+    
+}
+h2{
+    color: aliceblue;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Rubik Puddles', cursive;
+    text-align: center;
+    margin: 60px 0;
+    
+}
+h3{
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+}
+.guests{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+@keyframes fadeInAnime{
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.box{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-duration:8s;
+    animation-iteration-count:1;
+    animation-timing-function:ease;
+    animation-delay: 2.5s;
+    animation-direction:normal;
+    
+}
+.bro1{
+    display: flex;
+    justify-content: space-around;
+}
+.bro2{
+    display: flex;
+    justify-content: space-around;
+}
+.bro3{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+#karikari{
+    margin-right: 30px;
+}
+
+/* timetable */
+h5{
+    color: aliceblue;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Rubik Puddles', cursive;
+    text-align: center;
+    margin: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 20px;
+}
+.time p{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+
+/* tickets */
+.tk{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 70px;
+    
+}
+.tk_box{
+    border: solid 1px aliceblue;
+    padding: 30px;
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+button{
+    border: solid 1px black;
+    background-color: #223644;
+    color: white;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+/* sns */
+h4{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1em;
+    margin: 130px 30px 150px;
+}
+/* footer */
+footer{
+    text-align: center;
+    padding: 25px;
+    color: white;
+    background-color: #223644;
+}
+
+@media screen and (max-width: 780px){
+    h1{
+        font-size: 35px;
+    }
+    
+    .header{
+        right: -15px;
+    }
+    .header li{
+        margin-bottom: 15px;
+    }
+    .p1{
+        margin-top: 5px;
+    }
+    .p2{
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    #news{
+        margin: 0px auto 80px auto;
+    }
+    h2{
+        font-size: 75px;
+        margin: 0 0 50px;
+    }
+    .nwrap dl{
+        margin-bottom: auto;
+    }
+    .nwrap dt{
+        padding: 15px 0 15px;
+    }
+    .nwrap dd{
+        width: 81%;
+        padding: 5px 0 5px 10px;
+    }
+    .bro1{
+        display: block;
+        padding: 0;
+        margin: 20px 30px;
+    }
+    .bro2{
+        display: block;
+        padding: 0;
+        margin: 20px 30px;
+    }
+    .bro3{
+        display: block;
+        margin: 10px 20px 0 35px;
+        padding: 0;
+        margin: 20px 30px;
+    }
+    .container{
+        display: block;
+        margin: 40px 20px 90px;
+    }
+    h4{
+        letter-spacing: unset;
+        margin: 50px 30px 50px;
+    }
+    h5{
+        font-size: 65px;
+        margin: auto;
+    }
+    .time p{
+        font-size: 17px;
+        margin: 20px 20px 60px 20px;
+    }
+    .tk{
+        font-size: 23px;
+        margin-top: 40px;
+    }
+    .tk_box{
+        padding: 20px;
+        margin: 0 20px;
+    }
+}
+    
+    
