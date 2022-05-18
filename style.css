@@ -95,7 +95,7 @@ h2{
     color: aliceblue;
     font-size: 100px;
     font-weight: 700;
-    font-family: 'Rubik Puddles', cursive;
+    
     text-align: center;
     margin: 60px 0;
     
@@ -267,7 +267,7 @@ footer{
         margin: 50px 30px 50px;
     }
     h5{
-        font-size: 65px;
+        font-size: 14vw;
         margin: auto;
     }
     .time p{
